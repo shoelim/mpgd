@@ -1,0 +1,10 @@
+# Fullbatch hyperparameters 
+template_name: fb1
+
+defaults:
+  - _default_hyperparams
+
+# Specialization vs default:
+train_stochastic: False
+shuffle: False
+steps: 3000

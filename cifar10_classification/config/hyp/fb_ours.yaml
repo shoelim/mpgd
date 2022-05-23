@@ -1,0 +1,27 @@
+# Fullbatch hyperparameters 
+template_name: fb_ours
+
+defaults:
+  - _default_hyperparams
+
+# Specialization vs default:
+train_stochastic: False
+shuffle: False
+steps: 1000
+
+perturb:
+  seed: 1
+  sigma: 0.01
+  mu: 0.03
+  gamma: 0.55
+  start_perturb: 0
+  end_perturb: 1000
+
+diffperturb:
+  seed: 
+  sigma: 
+  mu: 
+  gamma: 
+  start_perturb: 
+  end_perturb: 
+

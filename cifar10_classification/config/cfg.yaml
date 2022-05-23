@@ -1,0 +1,34 @@
+# @package _global_
+# Configuration defaults
+# Settings are separated into four group
+# 1) Dataset
+# 2) Model
+# 3) "impl", implementation, containing implementation constants and settings which should only minorly affect performance
+# 4) "hyp", hyperparameters, which have a major impact on performance. but not on implementation
+
+defaults:
+  - data: CIFAR10
+  - model: resnet18
+
+  - impl: standard
+  - hyp: fb1
+
+
+  - analysis: none
+  - viz: 1d
+  - override hydra/job_logging: custom
+  - _self_
+
+hydra:
+  sweep:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+seed: 1 # Optional: Set initial seed
+name: Run with seed 1 # A name for this run [will be used for the summary table]
+
+
+# debug implementation by running every loop just once.
+# This is even allowed on CPU.
+dryrun: False
