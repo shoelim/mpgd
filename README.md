@@ -18,7 +18,7 @@ This repository implements multiscale perturbed gradient descent (MPGD) and prov
 ```
 python wideningvalleyloss_minimization/minimizing_widening_valley_loss.py
 ```
-See also the Jupyter notebook version in the folder 'wideningvalleyloss_minimization'
+See also the Jupyter notebook version in the folder `wideningvalleyloss_minimization` 
 
 ### Airfoil Self-Noise regression
 python airfoilselfnoise_regression/train.py
@@ -27,10 +27,10 @@ python airfoilselfnoise_regression/train.py
 ```
 python ecg5000_classification/ecg_classification_mlps.py
 ```
-See also the Jupyter notebook version in the folder 'ecg5000_classification'
+See also the Jupyter notebook version in the folder `ecg5000_classification`
 
 ### CIFAR-10 classification
 ```
 bash cifar10_classification/train.sh 
 ```
-Scripts for training runs can be found in 'train.sh': please check and specify the parameters there appropriately before running
+Scripts for training runs can be found in `train.sh`: please check and specify the parameters there appropriately before running
