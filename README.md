@@ -20,14 +20,19 @@ python wideningvalleyloss_minimization/minimizing_widening_valley_loss.py
 ```
 See also the Jupyter notebook version in the folder `wideningvalleyloss_minimization` 
 
+
 ### Airfoil Self-Noise regression
+```
 python airfoilselfnoise_regression/train.py
+```
+
 
 ### Electrocardiogram (ECG) classification
 ```
 python ecg5000_classification/ecg_classification_mlps.py
 ```
 See also the Jupyter notebook version in the folder `ecg5000_classification`
+
 
 ### CIFAR-10 classification
 ```
