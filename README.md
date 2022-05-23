@@ -18,7 +18,7 @@ This repository implements multiscale perturbed gradient descent (MPGD) and prov
 ```
 python minimizing_widening_valley_loss.py
 ```
-See also the Jupyter notebook version in the folder `wideningvalleyloss_minimization` 
+See also the Google Colab version [here](https://colab.research.google.com/drive/1FYOurx-FNrLT1O_OLx4ImSO4OPuB1z-H?usp=sharing)
 
 
 ### Airfoil Self-Noise regression
@@ -31,7 +31,7 @@ python train.py
 ```
 python ecg_classification_mlps.py
 ```
-See also the Jupyter notebook version in the folder `ecg5000_classification`
+See also the Google Colab version [here](https://colab.research.google.com/drive/1EibFg-F8PUeS90tpYbeZNbRHEu_EnHo2?usp=sharing)
 
 
 ### CIFAR-10 classification
