@@ -1,5 +1,7 @@
 # MPGD: Chaotic Regularization and Heavy-Tailed Limits for Deterministic Gradient Descent
-This repository implements multiscale perturbed gradient descent (MPGD) and provides codes to reproduce the results of the paper. Please refer to the paper for an introduction to the optimization tasks and other details.
+Multiscale perturbed gradient descent (MPGD) is an optimization framework where the gradient descent recursion is augmented with chaotic perturbations that evolve via an independent dynamical system. 
+
+This repository contains the implementation of MPGD and the code used for the results in the [paper](https://arxiv.org/abs/2205.11361). Please refer to the paper for an introduction to the optimization tasks and other details.
 
 ## Requirements
 - python 3
@@ -35,4 +37,4 @@ See also the Google Colab version [here](https://colab.research.google.com/drive
 
 
 ### CIFAR-10 classification
-Scripts for training runs can be found in `train.sh`. Please check and specify the parameters there appropriately before running.
+Scripts for training runs can be found in `train.sh`. Please check and specify the parameters appropriately before running.
